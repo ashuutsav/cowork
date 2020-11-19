@@ -1,0 +1,165 @@
+
+
+
+
+
+
+
+html,body{height:100%;}
+
+#menu_items a{
+  color:#f5f0e3;
+  font-size: 1em;
+  /* background-color: black; */
+}
+.fa{
+  font-size: 150%;
+  margin-left: 1%;
+}
+
+
+.bg1{
+  margin-top: 5%;
+  background-image: url("../images/office1.jpeg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(0,0,0,0.5);
+  background-blend-mode: multiply;
+
+}
+
+* {box-sizing: border-box;}
+
+
+.bodyForm{
+  width:60%;
+}
+
+.bodyFirst{
+  padding-left:10%;
+  padding-right:10%;
+}
+
+input[type=text], input[type=email], textarea {
+  width:100%;
+  padding: 2%;
+  border: 1px solid #ccc;
+  border-radius: 5%;
+  box-sizing: border-box;
+  margin-top: -2%;
+  margin-bottom: 3%;
+  resize: vertical;
+}
+
+input[type=submit] {
+  width: 30%;
+  background-color: #4CAF50;
+  color: white;
+  margin-left: 35%;
+  padding: 2% 4%;
+  border: none;
+  border-radius: 10%;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* .container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+} */
+.bottom{
+  padding-top:2em;
+  padding-bottom:0;
+  background-color:black;
+  text-align:center;
+}
+
+#contactus{
+  color:white;
+}
+
+.contact{
+  display:inline;
+  /* font-weight:bold; */
+  font-size:100%;
+}
+
+#list li{
+  display:inline;
+  list-style-type: none;
+  color: #808080;
+  font-size:80%;
+}
+
+
+#list a{
+  text-decoration: none;
+}
+
+
+.footer p{
+  color:#808080;
+  font-size:90%;
+}
+
+@media only screen and (max-width: 601px){
+
+  #logo{
+    width: 20%;
+    margin:0;
+    padding:0;
+  }
+
+  #logoImg{
+    width:100%;
+  }
+
+#menu_items{
+
+background-color: black;
+margin-left: -4%;
+padding-left: 5%;
+padding-bottom: 5%;
+padding-top: 5%;
+margin-right: -4%;
+}
+
+.bodyForm{
+  margin-top: 5%;
+}
+
+
+}
+
+@media only screen and (min-width: 992px){
+  #logo{
+    width: 21%;
+  }
+
+  .bodyForm{
+    margin-left: 10%;
+  }
+
+  .footer{
+    padding-left:50%;
+  }
+
+  #firstList{
+    margin-left:-3%;
+  }
+
+  #list li:hover{
+    color:blue;
+
+  }
+
+  /* .menu img{
+    width:25%;
+  } */
+}
